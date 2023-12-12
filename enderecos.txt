@@ -1,0 +1,2 @@
+Github: https://github.com/andressafs27/bate-papo.git
+Vercel: https://vercel.com/andressafs27/batepapo

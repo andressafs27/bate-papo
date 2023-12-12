@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Bate Papo</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        body {
+            background-color: #6B240C;
+            margin: 0;
+            padding: 0;
+            background-size: cover; 
+            background-position: center;
+            background-repeat: no-repeat;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        input{
+            border:1px solid #b67951;
+            background-color: #b67951;
+            border-radius: 5px;
+            width: 50%;
+            margin-bottom: 10px;
+            padding: 5px;
+            margin-top: 10px;
+        }
+
+        button{
+            font-size: 14px;
+            color: black;
+            background-color: #F5CCA0;
+            border:none;
+            padding: 8px 15px;
+            align-self: flex-start;
+        }
+
+        a{
+            border:1px solid black;
+            font-size: 14px;
+            color: black;
+            background-color: #FF6666;
+            border:none;
+            padding: 8px 15px;
+            align-self: flex-start;
+            border-radius: 5px; 
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+    <form id="form-enviar" action="/enviar" method="POST" class="needs-validation" novalidate>
+        <input type="text" class="form-control" id="mensagem" name="mensagem" placeholder="digite aqui sua mensagem" required>   
+        <button class="btn btn-primary" type="submit">Enviar</button>
+        <a href="logout">Logout</a>
+    </form> 
+</body>
+</html>

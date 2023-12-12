@@ -1,0 +1,31 @@
+{
+  "name": "fcookies",
+  "version": "1.0.0",
+  "description": "trabalho final - bate papo",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/andressafs27/bate-papo.git)"
+  },
+  "keywords": [
+    "node",
+    "aprender",
+    "trabalho final",
+    "bate papo"
+  ],
+  "author": "Andressa Farias",
+  "license": "ISC",
+  "dependencies": {
+    "cookie": "^0.6.0",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "parser": "^0.1.4",
+    "session": "^0.1.0"
+  }
+}
