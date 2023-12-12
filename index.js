@@ -29,7 +29,7 @@ function processarEnvioMensagem(requisicao, resposta) {
         <title>Bate Papo</title>
         <meta name='viewport' content='width=device-width, initial-scale=1'>
         <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-        <script src='main.js'></script>
+
         <style>
             body {
                 background-color: #6B240C;
@@ -138,7 +138,7 @@ function processarEnvioMensagem(requisicao, resposta) {
         <title>Bate Papo</title>
         <meta name='viewport' content='width=device-width, initial-scale=1'>
         <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-        <script src='main.js'></script>
+       
         <style>
             body {
                 background-color: #6B240C;
@@ -558,7 +558,7 @@ app.use(session({
     resave: true,
     saveUninitialized: true,
     cookie:{
-        maxAge: 1000 * 60 * 15
+        maxAge: 1000 * 60 * 30
     }
 }));
 
@@ -578,7 +578,6 @@ app.get('/batepapo',autenticar, (requisicao, resposta) => {
         <title>Bate Papo</title>
         <meta name='viewport' content='width=device-width, initial-scale=1'>
         <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-        <script src='main.js'></script>
         <style>
             body {
                 background-color: #6B240C;
@@ -678,7 +677,6 @@ app.get('/',autenticar, (requisicao, resposta) => {
                 <meta http-equiv='X-UA-Compatible' content='IE=edge'>
                 <title>Cadastro para Sala de Bate Papo</title>
                 <meta name='viewport' content='width=device-width, initial-scale=1'>
-                <script src='main.js'></script>
                 <style>
 
                     body {
